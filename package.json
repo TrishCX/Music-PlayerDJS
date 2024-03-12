@@ -1,0 +1,28 @@
+{
+  "name": "music-playerdjs",
+  "version": "1.0.0",
+  "description": "A music player build with the Spotify and the Youtube Music API.",
+  "main": "index.js",
+  "scripts": {
+    "start:prod": "nodemon dist/index.js",
+    "start:client": "nodemon dist/client.js",
+    "watch:server": "npx tsc --watch",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.13",
+    "nodemon": "^3.1.0",
+    "opusscript": "^0.0.8",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "youtube-stream-url": "^2.4.3"
+  }
+}
