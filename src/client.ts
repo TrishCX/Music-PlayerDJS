@@ -28,7 +28,7 @@ interface IConfig {
 }
 const config: IConfig = {
   BOT_TOKEN:
-    "MTIxNTQ1NTgyOTg0NzcwNzY3OQ.GwDCS6.lbeMI6aL07G-BMwpj4cQ4iXSf4YYsqGq6GYiIQ",
+    "YOUR_TOKEN",
 };
 
 // commands
